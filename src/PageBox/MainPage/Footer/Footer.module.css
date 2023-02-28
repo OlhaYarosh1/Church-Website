@@ -1,32 +1,77 @@
 .footer {
-    min-height: 140px;
+    min-height: 115px;
 }
 
-hr {
-    width: 98%;
+.footerUnderline {
+    width: 95%;
+    border-radius: 50%;
     color: rgb(234, 64, 64);
-    border-radius: 30%;
 }
 
-.addressTitle {
+.addressUnderline, .jurisdictionUnderline, .phoneUnderline {
+    width: 17.5%;
+    color: rgb(234, 64, 64);
+    margin-left: 150px;
+    margin-top: -0.5px;
+}
+
+.addressUnderline {
+    margin-left: 152px;
+}
+
+.jurisdictionUnderline {
+    margin-left: 415px;
+}
+
+.phoneUnderline {
+    margin-left: 678px;
+}
+
+.addressTitle, .jurisdictionTitle, .phoneTitle {
     font-size: 11.5px;
     margin-top: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 2px;
-    margin-left: 120px;
+    color: rgb(234, 64, 64);
+    font-weight: 600;
 }
 
-.address {
+.addressTitle {
+    margin-left: 150px;
+}
+
+.jurisdictionTitle {
+    margin-left: 413px;
+    margin-top: -64px;
+}
+
+.phoneTitle {
+    margin-left: 676px;
+    margin-top: -53px;
+}
+
+.address, .jurisdiction, .phone {
     font-size: 9.5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 2px;
-    margin-left: 120px;
+}
+
+.address {
+    margin-left: 150px;
+}
+
+.jurisdiction {
+    margin-left: 413px;
+}
+
+.phone {
+    margin-left: 676px;
 }
 
 .imgEparchy {
     width: 85px;
-    margin-top: -75px;
-    margin-left: 20px;
+    margin-top: -65px;
+    margin-left: 32px;
     filter: grayscale(100%);
     opacity: 0.5;
 }

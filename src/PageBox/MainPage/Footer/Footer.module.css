@@ -1,0 +1,32 @@
+.footer {
+    min-height: 140px;
+}
+
+hr {
+    width: 98%;
+    color: rgb(234, 64, 64);
+    border-radius: 30%;
+}
+
+.addressTitle {
+    font-size: 11.5px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    margin-left: 120px;
+}
+
+.address {
+    font-size: 9.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    margin-left: 120px;
+}
+
+.imgEparchy {
+    width: 85px;
+    margin-top: -75px;
+    margin-left: 20px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
